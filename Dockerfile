@@ -14,4 +14,4 @@ WORKDIR /usr/src/app/test123
 RUN mvn clean install
 
 # Start the application
-CMD ["java", "-jar", "/usr/src/app/test123/target/your-app.jar"]
+CMD ["java", "-jar", "/usr/src/app/test123/target/test123-0.0.1-SNAPSHOT.jar"]
