@@ -13,5 +13,7 @@ WORKDIR /usr/src/app/test123
 # Run Maven to clean and install the application
 RUN mvn clean install
 
+EXPOSE 80
+
 # Start the application
 CMD ["java", "-jar", "/usr/src/app/test123/target/test123-0.0.1-SNAPSHOT.jar"]
